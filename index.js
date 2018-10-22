@@ -5,5 +5,9 @@ module.exports = {
   bitcoincontrol: require('bitcoincontrol'),
   ecurve: require('ecurve'),
   BigInteger: require('bigi'),
-  Buffer: require('buffer')
+  Buffer: require('buffer'),
+  Bip38: require('bip38'),
+  Bip39: require('bip39'),
+  QRCode: require('qrcode'),
+  Randombytes: require('randombytes')
 }
